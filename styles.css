@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #1E293B;
     background-color: #ffffff;
 }
 
@@ -46,13 +46,13 @@ body {
 .nav-logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #10B981;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-logo a:hover {
-    color: #1d4ed8;
+    color: #059669;
 }
 
 .nav-menu {
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-link {
-    color: #333;
+    color: #1E293B;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -80,23 +80,23 @@ body {
 }
 
 .nav-link:hover {
-    color: #5e80f8;
-    background: rgba(94, 128, 248, 0.1);
-    border-color: #5e80f8;
+    color: #10B981;
+    background: rgba(16, 185, 129, 0.1);
+    border-color: #10B981;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(94, 128, 248, 0.2);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.2);
 }
 
 /* Removed underline effect for button-style navigation */
 
 .nav-link.active {
-    color: #5e80f8;
-    background: rgba(94, 128, 248, 0.15);
-    border-color: #5e80f8;
+    color: #10B981;
+    background: rgba(16, 185, 129, 0.15);
+    border-color: #10B981;
 }
 
 .resume-link {
-    background: linear-gradient(135deg, #3b82f6, #1e40af) !important;
+    background: linear-gradient(135deg, #10B981, #059669) !important;
     color: white !important;
     border-radius: 25px !important;
     padding: 0.5rem 1.2rem !important;
@@ -108,7 +108,7 @@ body {
 }
 
 .resume-link:hover {
-    background: linear-gradient(135deg, #1e40af, #3b82f6) !important;
+    background: linear-gradient(135deg, #047857, #10B981) !important;
     transform: translateY(-3px) !important;
     box-shadow: 0 8px 25px rgba(59, 130, 246, 0.5) !important;
     color: white !important;
@@ -164,7 +164,7 @@ body {
 }
 
 .highlight {
-    color: #fbbf24;
+    color: #10B981;
 }
 
 .hero-subtitle {
@@ -203,7 +203,7 @@ body {
 }
 
 .btn-primary {
-    background: #5e80f8;
+    background: #10B981;
     color: white;
     display: flex;
     align-items: center;
@@ -223,14 +223,14 @@ body {
 }
 
 .btn-primary:hover {
-    background: #4a6cf7;
+    background: #059669;
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(94, 128, 248, 0.3);
+    box-shadow: 0 10px 25px rgba(16, 185, 129, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: rgb(108, 111, 246);
+    color: #10B981;
     border: 2px solid white;
     display: flex;
     align-items: center;
@@ -362,7 +362,7 @@ section {
 .stat h3 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #2563eb;
+    color: #10B981;
     margin-bottom: 0.5rem;
 }
 
@@ -372,14 +372,14 @@ section {
 }
 
 .stat-link {
-    color: #5e80f8;
+    color: #10B981;
     text-decoration: none;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .stat-link:hover {
-    color: #4a6cf7;
+    color: #059669;
     text-decoration: underline;
     transform: translateY(-1px);
 }
@@ -450,7 +450,7 @@ section {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(45deg, #5e80f8, #4a6cf7, #8b5cf6, #fbbf24, #5e80f8);
+    background: linear-gradient(45deg, #10B981, #059669, #10B981, #fbbf24, #10B981);
     border-radius: 32px;
     z-index: -1;
     opacity: 0;
@@ -561,7 +561,7 @@ section {
     font-weight: 800;
     margin-bottom: 1.2rem;
     color: #1f2937;
-    background: linear-gradient(135deg, #3b82f6, #8b5cf6, #10b981);
+    background: linear-gradient(135deg, #10B981, #10B981, #10b981);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -576,7 +576,7 @@ section {
     left: 0;
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #3b82f6, #8b5cf6, #10b981);
+    background: linear-gradient(90deg, #10B981, #10B981, #10b981);
     border-radius: 3px;
     transform: scaleX(0);
     transition: transform 0.5s ease;
@@ -631,11 +631,11 @@ section {
 }
 
 .tech-tag:hover {
-    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #10B981 0%, #10B981 100%);
     color: white;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
-    border-color: #3b82f6;
+    border-color: #10B981;
 }
 
 .project-links {
@@ -645,7 +645,7 @@ section {
 }
 
 .project-link {
-    color: #3b82f6;
+    color: #10B981;
     text-decoration: none;
     font-weight: 700;
     transition: all 0.4s ease;
@@ -677,11 +677,11 @@ section {
 }
 
 .project-link:hover {
-    background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #10B981 0%, #10B981 100%);
     color: white;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
-    border-color: #3b82f6;
+    border-color: #10B981;
 }
 
 .project-link i {
@@ -764,7 +764,7 @@ section {
 .title-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -808,7 +808,7 @@ section {
     color: #2c3e50;
     margin: 0 0 10px 0;
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -834,7 +834,7 @@ section {
 }
 
 .stat-bubble {
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     color: white;
     padding: 20px;
     border-radius: 20px;
@@ -942,14 +942,14 @@ section {
     left: 50%;
     transform: translate(-50%, -50%) rotate(180deg) translateX(120px) rotate(-180deg);
     animation: orbit3 8s linear infinite;
-    background: linear-gradient(135deg, rgb(108, 111, 246) 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #10B981 0%, #10B981 100%);
     transition: all 0.3s ease;
 }
 
 .card-3:hover {
     transform: translate(-50%, -50%) scale(1.1);
     box-shadow: 0 15px 35px rgba(108, 111, 246, 0.4);
-    background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
 }
 
 .card-4 {
@@ -1040,7 +1040,7 @@ section {
     color: #2c3e50;
     margin: 0;
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1048,13 +1048,13 @@ section {
 
 .section-header i {
     font-size: 1.5rem;
-    color: #5e80f8;
+    color: #10B981;
 }
 
 .header-accent {
     flex: 1;
     height: 3px;
-    background: linear-gradient(90deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(90deg, #10B981 0%, #059669 100%);
     border-radius: 2px;
 }
 
@@ -1139,7 +1139,7 @@ section {
 .achievement-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     border-radius: 16px;
     display: flex;
     align-items: center;
@@ -1193,7 +1193,7 @@ section {
     transform: translateX(-50%);
     width: 4px;
     height: 100%;
-    background: linear-gradient(180deg, #2563eb 0%, #1d4ed8 50%, #2563eb 100%);
+    background: linear-gradient(180deg, #10B981 0%, #059669 50%, #10B981 100%);
     border-radius: 2px;
 }
 
@@ -1215,7 +1215,7 @@ section {
 .timeline-marker {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1270,7 +1270,7 @@ section {
 .timeline-content:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
-    border-color: #2563eb;
+    border-color: #10B981;
 }
 
 .timeline-content h4 {
@@ -1289,7 +1289,7 @@ section {
 }
 
 .pill {
-    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -1374,8 +1374,8 @@ section {
 
 .category-header i {
     font-size: 1.5rem;
-    color: #5e80f8;
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    color: #10B981;
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     color: white;
     padding: 10px;
     border-radius: 12px;
@@ -1409,7 +1409,7 @@ section {
 }
 
 .tech-tag {
-    background: linear-gradient(135deg, #5e80f8 0%, #4a6cf7 100%);
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
     color: white;
     padding: 8px 15px;
     border-radius: 15px;
@@ -1447,46 +1447,46 @@ section {
 .tech-tag:hover {
     transform: translateY(-2px) scale(1.05);
     box-shadow: 0 8px 20px rgba(94, 128, 248, 0.4);
-    background: linear-gradient(135deg, #4a6cf7 0%, #3b82f6 100%);
+    background: linear-gradient(135deg, #059669 0%, #10B981 100%);
     border-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Color-Coordinated Academic Projects */
 /* Standard color scheme for all academic projects */
 .project-card .project-content h3 {
-    background: linear-gradient(135deg, #3b82f6, #1e40af);
+    background: linear-gradient(135deg, #10B981, #047857);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .project-card .project-content h3::after {
-    background: linear-gradient(90deg, #3b82f6, #1e40af);
+    background: linear-gradient(90deg, #10B981, #047857);
 }
 
 .project-card .tech-tag {
     background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 100%);
-    color: #1e40af;
+    color: #047857;
     border: 2px solid rgba(30, 64, 175, 0.2);
 }
 
 .project-card .tech-tag:hover {
-    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    background: linear-gradient(135deg, #10B981 0%, #047857 100%);
     color: white;
-    border-color: #3b82f6;
+    border-color: #10B981;
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
 }
 
 .project-card .project-link {
-    color: #1e40af;
+    color: #047857;
     background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(30, 64, 175, 0.1) 100%);
     border: 2px solid rgba(59, 130, 246, 0.2);
 }
 
 .project-card .project-link:hover {
-    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+    background: linear-gradient(135deg, #10B981 0%, #047857 100%);
     color: white;
-    border-color: #3b82f6;
+    border-color: #10B981;
     box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
 
@@ -1584,7 +1584,7 @@ section {
         top: 0;
         bottom: 0;
         width: 4px;
-        background: linear-gradient(180deg, #2563eb, #3b82f6);
+        background: linear-gradient(180deg, #10B981, #10B981);
     }
     
     .achievement-icon {
@@ -1592,7 +1592,7 @@ section {
         width: 50px;
         height: 50px;
         margin: 0;
-        background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        background: linear-gradient(135deg, #10B981, #059669);
         border-radius: 12px;
         display: flex;
         align-items: center;
@@ -1631,7 +1631,7 @@ section {
     .achievement-card:hover {
         transform: translateY(-2px);
         box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
-        border-color: #3b82f6;
+        border-color: #10B981;
     }
     
     .achievement-card:hover .achievement-icon {
@@ -1851,7 +1851,7 @@ section {
         top: 0;
         bottom: 0;
         width: 3px;
-        background: linear-gradient(180deg, #2563eb, #3b82f6);
+        background: linear-gradient(180deg, #10B981, #10B981);
     }
     
     .achievement-icon {
@@ -1859,7 +1859,7 @@ section {
         width: 45px;
         height: 45px;
         margin: 0;
-        background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        background: linear-gradient(135deg, #10B981, #059669);
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -1898,7 +1898,7 @@ section {
     .achievement-card:hover {
         transform: translateY(-1px);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-        border-color: #3b82f6;
+        border-color: #10B981;
     }
     
     .achievement-card:hover .achievement-icon {
@@ -1975,7 +1975,7 @@ section {
 
 .tool-progress {
     height: 100%;
-    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    background: linear-gradient(90deg, #10B981, #10B981);
     border-radius: 4px;
     transition: width 1.5s ease;
     position: relative;
@@ -2033,7 +2033,7 @@ section {
 }
 
 .contact-item i {
-    color: #2563eb;
+    color: #10B981;
     font-size: 1.2rem;
     width: 20px;
 }
@@ -2046,7 +2046,7 @@ section {
 .social-link {
     width: 120px;
     height: 45px;
-    background: #2563eb;
+    background: #10B981;
     color: white;
     border-radius: 25px;
     display: flex;
@@ -2059,7 +2059,7 @@ section {
 }
 
 .social-link:hover {
-    background: #1d4ed8;
+    background: #059669;
     transform: translateY(-3px);
 }
 
@@ -2088,7 +2088,7 @@ section {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #2563eb;
+    border-color: #10B981;
 }
 
 .form-group textarea {
