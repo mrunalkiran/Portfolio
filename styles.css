@@ -295,8 +295,8 @@ body {
 }
 
 .profile-card {
-    width: 370px;
-    height: 370px;
+    width: 300px;
+    height: 300px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
@@ -317,8 +317,8 @@ body {
 }
 
 .profile-photo {
-    width: 350px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
     border-radius: 12px;
     object-fit: contain;
     object-position: center;
