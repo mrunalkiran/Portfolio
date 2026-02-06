@@ -32,10 +32,10 @@ window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-        navbar.style.boxShadow = '0 6px 25px rgba(0, 0, 0, 0.1)';
+        navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
     } else {
-        navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.05)';
+        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+        navbar.style.boxShadow = 'none';
     }
 });
 
@@ -236,14 +236,33 @@ window.addEventListener('load', () => {
 const backToTopBtn = document.createElement('button');
 backToTopBtn.innerHTML = '<i class="fas fa-arrow-up"></i>';
 backToTopBtn.className = 'back-to-top';
+backToTopBtn.style.cssText = `
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    font-size: 1.2rem;
+`;
 
 document.body.appendChild(backToTopBtn);
 
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
-        backToTopBtn.classList.add('show');
+        backToTopBtn.style.opacity = '1';
+        backToTopBtn.style.visibility = 'visible';
     } else {
-        backToTopBtn.classList.remove('show');
+        backToTopBtn.style.opacity = '0';
+        backToTopBtn.style.visibility = 'hidden';
     }
 });
 
@@ -252,4 +271,15 @@ backToTopBtn.addEventListener('click', () => {
         top: 0,
         behavior: 'smooth'
     });
+});
+
+// Add hover effect to back to top button
+backToTopBtn.addEventListener('mouseenter', () => {
+    backToTopBtn.style.background = '#1d4ed8';
+    backToTopBtn.style.transform = 'scale(1.1)';
+});
+
+backToTopBtn.addEventListener('mouseleave', () => {
+    backToTopBtn.style.background = '#2563eb';
+    backToTopBtn.style.transform = 'scale(1)';
 }); 
