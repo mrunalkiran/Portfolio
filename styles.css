@@ -1548,7 +1548,7 @@ section {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .experience-hero {
         padding: 40px;
     }
@@ -2272,7 +2272,7 @@ section {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .hamburger {
         display: flex;
     }
