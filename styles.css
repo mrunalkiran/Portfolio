@@ -13,7 +13,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #1A1B26;
-    background-color: #ffffff;
+    background-color: #F0EBDB;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(240, 235, 219, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
     padding: 1rem 0;
@@ -318,12 +318,12 @@ section {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: #A9B1D6;
+    color: #0D1321;
 }
 
 /* About Section */
 .about {
-    background: #f8fafc;
+    background: #F0EBDB;
 }
 
 .about-content {
@@ -349,7 +349,7 @@ section {
 .stat {
     text-align: center;
     padding: 2rem;
-    background: white;
+    background: #F0EBDB;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
@@ -414,7 +414,7 @@ section {
 }
 
 .project-card {
-    background: white;
+    background: #F0EBDB;
     border-radius: 25px;
     overflow: hidden;
     box-shadow: 
@@ -560,7 +560,7 @@ section {
     font-size: 1.6rem;
     font-weight: 800;
     margin-bottom: 1.2rem;
-    color: #A9B1D6;
+    color: #0D1321;
     background: linear-gradient(135deg, #73DACA, #73DACA, #10b981);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -695,7 +695,7 @@ section {
 
 /* Experience Section */
 .experience {
-    background: linear-gradient(135deg, #f8f8f8 0%, #98b2e9 100%);
+    background: linear-gradient(135deg, #E8E1CC 0%, #98b2e9 100%);
     padding: 80px 0;
     position: relative;
     overflow: hidden;
@@ -721,7 +721,7 @@ section {
 
 /* Hero Section */
 .experience-hero {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(240, 235, 219, 0.95);
     backdrop-filter: blur(20px);
     border-radius: 24px;
     padding: 50px;
@@ -790,7 +790,7 @@ section {
     object-fit: contain;
     border-radius: 16px;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: linear-gradient(135deg, #F0EBDB 0%, #E8E1CC 100%);
     padding: 10px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
@@ -805,7 +805,7 @@ section {
 .role-title h2 {
     font-size: 3rem;
     font-weight: 800;
-    color: #2c3e50;
+    color: #0D1321;
     margin: 0 0 10px 0;
     font-family: 'Playfair Display', serif;
     background: linear-gradient(135deg, #73DACA 0%, #5CBFB8 100%);
@@ -1005,7 +1005,7 @@ section {
 
 /* Content Sections */
 .experience-content {
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(240, 235, 219, 0.95);
     backdrop-filter: blur(20px);
     border-radius: 24px;
     padding: 50px;
@@ -1037,7 +1037,7 @@ section {
 .section-header h3 {
     font-size: 2rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #0D1321;
     margin: 0;
     font-family: 'Playfair Display', serif;
     background: linear-gradient(135deg, #73DACA 0%, #5CBFB8 100%);
@@ -1086,7 +1086,7 @@ section {
 }
 
 .achievement-card {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    background: linear-gradient(135deg, #F0EBDB 0%, #E8E1CC 100%);
     border-radius: 16px;
     padding: 25px;
     border: 1px solid #e9ecef;
@@ -1132,7 +1132,7 @@ section {
 .achievement-card:hover {
     transform: translateY(-15px) scale(1.05);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    background: linear-gradient(135deg, #F0EBDB 0%, #F0EBDB 100%);
     animation-play-state: paused;
 }
 
@@ -1156,7 +1156,7 @@ section {
 .achievement-content h4 {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #0D1321;
     margin: 0 0 10px 0;
     line-height: 1.4;
 }
@@ -1238,7 +1238,7 @@ section {
 
 .timeline-content {
     flex: 1;
-    background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+    background: linear-gradient(145deg, #F0EBDB 0%, #E8E1CC 100%);
     border-radius: 15px;
     padding: 2rem;
     margin: 0 2rem;
@@ -1276,7 +1276,7 @@ section {
 .timeline-content h4 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #1e293b;
+    color: #0D1321;
     margin-bottom: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1322,7 +1322,7 @@ section {
 }
 
 .tech-category {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%);
+    background: linear-gradient(135deg, rgba(240, 235, 219, 0.95) 0%, rgba(232, 225, 204, 0.95) 100%);
     border-radius: 20px;
     padding: 20px;
     border: 2px solid rgba(94, 128, 248, 0.1);
@@ -1391,7 +1391,7 @@ section {
 .category-header span {
     font-size: 1.1rem;
     font-weight: 800;
-    color: #1e293b;
+    color: #0D1321;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     position: relative;
@@ -1567,7 +1567,7 @@ section {
         gap: 20px;
         padding: 25px 20px;
         border-radius: 16px;
-        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        background: linear-gradient(135deg, #F0EBDB 0%, #E8E1CC 100%);
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         border: 1px solid #e2e8f0;
         position: relative;
@@ -1834,7 +1834,7 @@ section {
         gap: 15px;
         padding: 20px 15px;
         border-radius: 14px;
-        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        background: linear-gradient(135deg, #F0EBDB 0%, #E8E1CC 100%);
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
         border: 1px solid #e2e8f0;
         position: relative;
@@ -1918,7 +1918,7 @@ section {
 
 /* Tools & Skills Section */
 .tools-skills {
-    background: #f8fafc;
+    background: #F0EBDB;
     padding: 80px 0;
 }
 
@@ -1933,7 +1933,7 @@ section {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
-    color: #A9B1D6;
+    color: #0D1321;
     text-align: center;
 }
 
@@ -2009,7 +2009,7 @@ section {
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #A9B1D6;
+    color: #0D1321;
 }
 
 .contact-info p {
@@ -2064,7 +2064,7 @@ section {
 }
 
 .contact-form {
-    background: white;
+    background: #F0EBDB;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
