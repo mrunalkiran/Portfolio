@@ -1998,6 +1998,10 @@ section {
 }
 
 /* Contact Section */
+section#contact {
+    background: #F0EBD8;
+}
+
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
